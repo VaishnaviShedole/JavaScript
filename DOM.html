@@ -1,0 +1,22 @@
+<body onload="reload()">
+
+    <div class="center" >
+            Select:
+            <select name="" id="">
+                <option value="Mr">Mr</option>
+                <option value="Mrs">Mrs</option>
+                <option value="Dr">Dr</option>
+            </select>
+    </div>
+           
+    <script>
+        function reload()
+        {
+            document.getElementsByTagName("option")[0].innerHTML= "Dr";
+            document.getElementsByTagName("option")[0].value= "Dr";
+            document.getElementsByTagName("option")[2].innerHTML= "Mr";
+            document.getElementsByTagName("option")[2].value= "Mr";
+        }
+    </script>
+
+</body>
